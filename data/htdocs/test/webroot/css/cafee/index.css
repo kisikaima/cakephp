@@ -1,0 +1,49 @@
+
+.side-class{
+    float: left;
+    width: 210px;
+    height: 100%;
+    background-color: black;
+}
+.main{
+    margin: 0 0 0 210px;
+    padding: 0 0 50px;
+    background: rgb(231,231,231);
+}
+.impact-font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    font-size: 45px;
+    margin: 25px;
+}
+.side-nav{
+    margin: 1.9em 0 0 20px;
+}
+.side-a{
+    display: block;
+    position: relative;
+    padding: 16px 0;
+    color: white;
+    font-family: Helvetica;
+    font-size: 0.95em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.side-a::after {
+    background-color: white;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: .5s all;
+    width: 0;
+}
+
+.side-a:hover::after {
+width: 100%;
+}
+.sns{
+    background: url('/data/htdocs/test/webroot/img/Instagramimg.jpeg');
+}
