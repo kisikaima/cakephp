@@ -12,6 +12,7 @@
 		<meta name="keywords" content="サイトキーワードを,で区切って入力">
 		<script src="sample.js"></script>
 		<?= $this->Html->script('/js/vue.js') ?>
+		<?= $this->Html->script('/js/cafee.js') ?>
 	</head>
 	<body>
 		
@@ -36,7 +37,9 @@
 				</nav>
 				
 			</div>
-			<div class="main"></div>
+			<div id="canvas" class="main">
+			<?php echo $this->Html->image("cafee.jpeg",['class' => 'img']); ?>
+			</div>
 
 		<!----- メインコンテンツ END ----->
 
