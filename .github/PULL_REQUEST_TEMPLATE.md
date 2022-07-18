@@ -1,10 +1,9 @@
-**PLEASE NOTE:**
+## 概要
+<!-- 実装した内容を書く -->
 
-This is only a issue tracker for issues related to the CakePHP Application Skeleton.
-For CakePHP Framework issues please use this [issue tracker](https://github.com/cakephp/cakephp/issues).
-
-Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. If it fixes a bug or resolves a feature request, be sure to link to that issue.
-
-The best way to propose a feature is to open an issue first and discuss your ideas there before implementing them.
-
-Always follow the [contribution guidelines](https://github.com/cakephp/cakephp/blob/master/.github/CONTRIBUTING.md) guidelines when submitting a pull request. In particular, make sure existing tests still pass, and add tests for all new behavior. When fixing a bug, you may want to add a test to verify the fix.
+## 動作確認
+<!-- 自分が実際にテストした内容を記載する -->
+<!-- 例: ログイン機能を作成した場合 -->
+<!-- [ ] emailは入力できるか -->
+<!-- [ ] passwordは入力できるか -->
+<!-- [ ] emailとpasswordを入力して登録ボタンを押下すると、usersテーブルにレコードが作成されるか -->

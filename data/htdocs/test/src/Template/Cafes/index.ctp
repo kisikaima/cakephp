@@ -40,6 +40,9 @@
 			<div id="canvas" class="main">
 			<?php echo $this->Html->image("cafee.jpeg",['class' => 'img']); ?>
 			</div>
+			<div style="height:600px;">
+
+			</div>
 
 		<!----- メインコンテンツ END ----->
 
